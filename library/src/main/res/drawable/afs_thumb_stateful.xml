@@ -23,13 +23,14 @@
   -->
 <selector
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" 
     xmlns:tools="http://schemas.android.com/tools"
     tools:ignore="UnusedResources">
 
     <item android:state_pressed="true">
         <shape
             android:shape="rectangle"
-            android:tint="?colorControlActivated">
+            app:tint="?colorControlActivated">
             <size android:width="8dp" android:height="48dp" />
             <solid android:color="@android:color/white" />
         </shape>
@@ -38,7 +39,7 @@
     <item>
         <shape
             android:shape="rectangle"
-            android:tint="?colorControlNormal">
+            app:tint="?colorControlNormal">
             <size android:width="8dp" android:height="48dp" />
             <solid android:color="@android:color/white" />
         </shape>

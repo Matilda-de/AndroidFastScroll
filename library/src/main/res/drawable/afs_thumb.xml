@@ -22,8 +22,9 @@
   -->
 <shape
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" 
     android:shape="rectangle"
-    android:tint="?colorControlActivated">
+    app:tint="?colorControlActivated">
 
     <size android:width="8dp" android:height="48dp" />
 
